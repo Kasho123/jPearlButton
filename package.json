@@ -1,6 +1,6 @@
 {
   "name": "jpearlbutton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a circle button in the bottom right corner part of the screen.",
   "main": "index.js",
   "scripts": {
