@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sample</title>
+</head>
+<body>
+
+	<ul id="pearlbutton" style="display:none;">
+		<li data-jp-anchortab="http://google.com" data-jp-anchor="http://yahoo.com">Compose</li>
+		<li data-jp-icon="img/app.png" data-jp-color="#222">item2</li>
+		<li>ITEM3</li>
+		<li data-jp-anchortab="http://google.com">4</li>
+		<li>abc</li>
+		<li data-jp-anchor="http://google.com">Michael</li>
+		<li>John</li>
+	</ul>
+
+	<script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="js/jpearlbutton.min.js"></script>
+
+	<script>
+		var jpearlbutton = $('#pearlbutton').jPearlButton({
+			onclick : function(label, e) {
+				console.log(label);
+				console.log(e);
+			},
+			show : true
+		});
+	</script>
+
+</body>
+</html>
