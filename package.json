@@ -1,0 +1,23 @@
+{
+  "name": "jpearlbutton",
+  "version": "1.0.0",
+  "description": "Create a circle button in the bottom right corner part of the screen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kasho123/jPearlButton.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "Kasho123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kasho123/jPearlButton/issues"
+  },
+  "homepage": "https://github.com/Kasho123/jPearlButton#readme"
+}
